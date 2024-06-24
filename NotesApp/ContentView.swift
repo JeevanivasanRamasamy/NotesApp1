@@ -18,7 +18,7 @@ struct ContentView: View {
                 .font(.system(size: 50))
             Text("Hello, world!")
                 .padding(.top, 3)
-            Text("Changes made from the dev_branch")
+            Text("Doneeee!")
                 .foregroundStyle(.secondary)
                 .padding(.top, 3)
         }
