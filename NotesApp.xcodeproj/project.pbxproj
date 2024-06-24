@@ -11,6 +11,7 @@
 		CD1AF7D72C29AA4A007167D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AF7D62C29AA4A007167D2 /* ContentView.swift */; };
 		CD1AF7D92C29AA4B007167D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1AF7D82C29AA4B007167D2 /* Assets.xcassets */; };
 		CD1AF7DC2C29AA4B007167D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1AF7DB2C29AA4B007167D2 /* Preview Assets.xcassets */; };
+		CD2805D42C29BF9600635506 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2805D32C29BF9600635506 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CD1AF7D62C29AA4A007167D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD1AF7D82C29AA4B007167D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD1AF7DB2C29AA4B007167D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD2805D32C29BF9600635506 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				CD1AF7D62C29AA4A007167D2 /* ContentView.swift */,
 				CD1AF7D82C29AA4B007167D2 /* Assets.xcassets */,
 				CD1AF7DA2C29AA4B007167D2 /* Preview Content */,
+				CD2805D32C29BF9600635506 /* SecondView.swift */,
 			);
 			path = NotesApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2805D42C29BF9600635506 /* SecondView.swift in Sources */,
 				CD1AF7D72C29AA4A007167D2 /* ContentView.swift in Sources */,
 				CD1AF7D52C29AA4A007167D2 /* NotesAppApp.swift in Sources */,
 			);
