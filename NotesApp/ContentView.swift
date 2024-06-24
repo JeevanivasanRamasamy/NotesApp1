@@ -25,6 +25,7 @@ struct ContentView: View {
             }
             .padding(.top, 20)
         }
+        .navigationTitle("Home")
         .font(.system(size: 18, weight: .semibold, design: .monospaced))
         .padding(.all, 20)
         .multilineTextAlignment(.center)
