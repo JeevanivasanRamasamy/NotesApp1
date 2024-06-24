@@ -19,6 +19,11 @@ struct ContentView: View {
             Text("Changes made from the dev_branch")
                 .foregroundStyle(.secondary)
                 .padding(.top, 1)
+            
+            NavigationLink("Next ->") {
+                SecondView()
+            }
+            .padding(.top, 20)
         }
         .font(.system(size: 18, weight: .semibold, design: .monospaced))
         .padding(.all, 20)
@@ -27,5 +32,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    NavigationView(content: {
+        ContentView()
+    })
 }
