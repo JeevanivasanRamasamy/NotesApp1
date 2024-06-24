@@ -13,10 +13,16 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+                .font(.system(size: 50))
             Text("Hello, world!")
-            Text("Changes made from the test_branch")
+                .padding(.top, 3)
+            Text("Changes made from the dev_branch")
+                .foregroundStyle(.secondary)
+                .padding(.top, 1)
         }
-        .padding()
+        .font(.system(size: 18, weight: .semibold, design: .monospaced))
+        .padding(.all, 20)
+        .multilineTextAlignment(.center)
     }
 }
 
